@@ -1,0 +1,10 @@
+@import "./app";
+@import "../components/AddTask/addtask";
+@import "../components/NbTasks/nbtasks";
+@import "../components/TasksList/taskslist";
+
+
+
+body {
+  background-color: bisque;
+}

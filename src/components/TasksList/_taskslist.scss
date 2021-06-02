@@ -1,0 +1,30 @@
+.taskslist {
+  margin-top: 50px;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+
+  .task {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: brown;
+    color: bisque;
+    
+
+    label {
+      padding-left: 20px;
+    }
+
+    
+  }
+  .task--done {
+    text-decoration: line-through;
+    opacity: 0.5;
+
+  }
+
+  
+
+
+}

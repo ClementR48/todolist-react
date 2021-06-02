@@ -1,0 +1,20 @@
+.add-task {
+
+  input {
+    padding: 20px;
+    width: 100%;
+    border: none;
+    background-color: brown;
+    border-radius: 50px;
+    font-size: 2em;
+    color: bisque;
+
+    &::placeholder {
+      color: bisque;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
